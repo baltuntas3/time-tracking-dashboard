@@ -1,275 +1,262 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
   }
-  
   html {
-      font-size: 62.5%;
+    font-size : 62.5%;
   }
   body {
-      font-family: 'Rubik', sans-serif;
-       background-color: #0f1424;
+    font-family : 'Rubik', sans-serif;
+    background-color : #0f1424;
   }
   #root {
-    width: 100%;
+    width : 100%;
   }
-   .container {
-       width: 88%;
-       margin: 2rem auto;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-       gap: 2.2rem;
+  .container {
+    width : 88%;
+    margin : 2rem auto;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 2.2rem;
   }
-   .card-main {
-       background-color: #1c1f4a;
-       border-radius: 1.6rem;
-       width: 100%;
+  .card-main {
+    background-color : #1c1f4a;
+    border-radius : 1.6rem;
+    width : 100%;
   }
-   .card-main .card-identity {
-       background-color: #5847eb;
-       border-radius: 1.6rem;
-       padding: 3rem;
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: flex-start;
-       gap: 1.8rem;
+  .card-main .card-identity {
+    background-color : #5847eb;
+    border-radius : 1.6rem;
+    padding : 3rem;
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : flex-start;
+    gap : 1.8rem;
   }
-   .card-main .card-identity img {
-       width: 40%;
-       max-width: 130px;
-       border: 3px solid white;
-       border-radius: 50%;
+  .card-main .card-identity img {
+    width : 40%;
+    max-width : 130px;
+    border : white solid 3px;
+    border-radius : 50%;
   }
-   .card-main .card-identity .card-description {
-       display: flex;
-       flex-direction: column;
-       align-items: flex-start;
-       justify-content: center;
-       gap: 0.4rem;
+  .card-main .card-identity .card-description {
+    display : flex;
+    flex-direction : column;
+    align-items : flex-start;
+    justify-content : center;
+    gap : 0.4rem;
   }
-   .card-main .card-identity .card-description p {
-       color: #bdc1ff;
-       font-size: 1.5rem;
+  .card-main .card-identity .card-description p {
+    color : #bdc1ff;
+    font-size : 1.5rem;
   }
-   .card-main .card-identity .card-description .name {
-       color: white;
-       font-size: 2.4rem;
-       font-weight: 300;
+  .card-main .card-identity .card-description .name {
+    color : white;
+    font-size : 2.4rem;
+    font-weight : 300;
   }
-   .card-main .card-menu {
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: space-between;
-       padding: 2.5rem;
+  .card-main .card-menu {
+    display : flex;
+    flex-direction : row;
+    align-items : center;
+    justify-content : space-between;
+    padding : 2.5rem;
   }
-   .card-main .card-menu .card-link {
-       color: #6f76c8;
-       font-size: 1.8rem;
-       cursor: pointer;
+  .card-main .card-menu .card-link {
+    color : #6f76c8;
+    font-size : 1.8rem;
+    cursor : pointer;
   }
-   .card-main .card-menu .card-link:hover {
-       color: white;
+  .card-main .card-menu .card-link:hover {
+    color : white;
   }
-   .card-main .card-menu .menu-active {
-       color: white;
+  .card-main .card-menu .menu-active {
+    color : white;
   }
-   .card-box {
-       width: 100%;
-       border-radius: 1.6rem;
-       background-repeat: no-repeat;
-       background-position: 92% -1rem;
+  .card-box {
+    width : 100%;
+    border-radius : 1.6rem;
+    background-repeat : no-repeat;
+    background-position : 92% -1rem;
   }
-   .card-box .card-props {
-       position: relative;
-       background-color: #1c1f4a;
-       margin-top: 4rem;
-       border-radius: 1.6rem;
-       padding: 2.5rem;
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       justify-content: center;
-       gap: 0.8rem;
+  .card-box .card-props {
+    position : relative;
+    background-color : #1c1f4a;
+    margin-top : 4rem;
+    border-radius : 1.6rem;
+    padding : 2.5rem;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+    gap : 0.8rem;
   }
-   .card-box .card-props:hover {
-       background-color: #33387a;
+  .card-box .card-props:hover {
+    background-color : #33387a;
   }
-   .card-box .card-props .row {
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-       width: 100%;
+  .card-box .card-props .row {
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    width : 100%;
   }
-   .card-box .card-props .row .title {
-       color: white;
-       font-size: 1.8rem;
-       font-weight: 500;
-       z-index: 98;
+  .card-box .card-props .row .title {
+    color : white;
+    font-size : 1.8rem;
+    font-weight : 500;
+    z-index : 98;
   }
-   .card-box .card-props .row .points {
-       display: flex;
-       align-items: center;
-       justify-content: center;
+  .card-box .card-props .row .points {
+    display : flex;
+    align-items : center;
+    justify-content : center;
   }
-   .card-box .card-props .row .points:hover .point {
-       background-color: white;
+  .card-box .card-props .row .points:hover .point {
+    background-color : white;
   }
-   .card-box .card-props .row .points:before {
-       content: '';
-       background-color: pink;
-       position: absolute;
-       left: 0;
-       top: 0;
-       right: 0;
-       bottom: 0;
-       border-radius: 1.6rem;
-       display: none;
-       z-index: 1;
+  .card-box .card-props .row .points:before {
+    content : '';
+    background-color : pink;
+    position : absolute;
+    left : 0;
+    top : 0;
+    right : 0;
+    bottom : 0;
+    border-radius : 1.6rem;
+    display : none;
+    z-index : 1;
   }
-   .card-box .card-props .row .points:hover::before {
-       background-color: #1c1f4a;
-       display: block;
+  .card-box .card-props .row .points:hover::before {
+    background-color : #1c1f4a;
+    display : block;
   }
-   .card-box .card-props .row .points .point {
-       background-color: #bdc1ff;
-       width: 0.4rem;
-       height: 0.4rem;
-       border-radius: 50%;
-       margin: 0.2rem;
-       z-index: 99;
+  .card-box .card-props .row .points .point {
+    background-color : #bdc1ff;
+    width : 0.4rem;
+    height : 0.4rem;
+    border-radius : 50%;
+    margin : 0.2rem;
+    z-index : 99;
   }
-   .card-box .card-props .row2 {
-       display: flex;
-       align-items: center;
-       justify-content: space-between;
-       width: 100%;
-       z-index: 97;
+  .card-box .card-props .row2 {
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    width : 100%;
+    z-index : 97;
   }
-   .card-box .card-props .row2 .hours {
-       color: white;
-       font-size: 3rem;
-       font-weight: 300;
+  .card-box .card-props .row2 .hours {
+    color : white;
+    font-size : 3rem;
+    font-weight : 300;
   }
-   .card-box .card-props .row2 .description {
-       color: #bdc1ff;
-       font-size: 1.5rem;
+  .card-box .card-props .row2 .description {
+    color : #bdc1ff;
+    font-size : 1.5rem;
   }
-   
   .work {
-      background-color: hsl(15, 100%, 70%);
-      background-image: url(./images/icon-work.svg);
+    background-color : hsl(15 100% 70%);
+    background-image : url(./images/icon-work.svg);
   }
   .play {
-      background-color: hsl(195, 74%, 62%);
-      background-image: url(./images/icon-play.svg);
+    background-color : hsl(195 74% 62%);
+    background-image : url(./images/icon-play.svg);
   }
-  
   .study {
-      background-color: hsl(348, 100%, 68%);
-      background-image: url(./images/icon-study.svg);
+    background-color : hsl(348 100% 68%);
+    background-image : url(./images/icon-study.svg);
   }
-  
   .exercise {
-      background-color: hsl(145, 58%, 55%);
-      background-image: url(./images/icon-exercise.svg);
+    background-color : hsl(145 58% 55%);
+    background-image : url(./images/icon-exercise.svg);
   }
-  
   .social {
-      background-color: hsl(264, 64%, 52%);
-      background-image: url(./images/icon-social.svg);
+    background-color : hsl(264 64% 52%);
+    background-image : url(./images/icon-social.svg);
+  }
+  .selfcare {
+    background-color : hsl(43 84% 65%);
+    background-image : url(./images/icon-self-care.svg);
+  }
+  @media screen and (min-width: 570px) {
+  .container {
+    display : grid;
+    grid-template-columns : 48% 48%;
+  }
+  .card-main {
+    grid-column : 1 / span 2;
+  }
+  .card-main .card-identity {
+    gap : 3rem;
+  }
+  .card-box .card-props .row2 {
+    flex-direction : column;
+    align-items : flex-start;
+  }
+    .card-box .card-props .row2 .hours {
+    font-size : 3rem;
+  }
+  }
+  @media screen and (min-width: 960px) {
+  .container {
+    display : grid;
+    grid-template-columns : 31% 31% 31%;
+  }
+  .card-main {
+    grid-column : 1 / span 3;
+  }
+  }
+  @media screen and (min-width: 1440px) {
+  body {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    height : 100vh;
+  }
+  .container {
+    width : 77%;
+    grid-template-columns : 23% 23% 23% 23%;
+    gap : 3rem;
+  }
+  .card-main {
+    grid-row : 1 / span 2;
+    grid-column : unset;
+    height : 100%;
+  }
+  .card-main .card-identity {
+    flex-direction : column;
+    align-items : flex-start;
+    height : 70%;
+    padding : 3.5rem 3rem;
+  }
+  .card-main .card-identity .img {
+    width : 8.4rem;
+  }
+  .card-main .card-identity .card-description {
+    margin-top : 1rem;
+  }
+  .card-main .card-identity .card-description .name {
+    font-size : 4rem;   
+  }
+  .card-main .card-menu {
+    height : 30%;
+    flex-direction : column;
+    align-items : flex-start;
+  }
+  .card-box .card-props {
+    margin-top : 4.5rem;
+    padding : 2.8rem;
+  }
+  .card-box .card-props .row2 .hours {
+    font-size : 5.5rem;
+    padding-top : 1.9rem;
+  }
+  .card-box .card-props .row2 .description {
+    padding-top : 1rem;
+  }
   }
   
-  .selfcare {
-      background-color: hsl(43, 84%, 65%);
-      background-image: url(./images/icon-self-care.svg);
-  }
-
-
-
-
-@media screen and (min-width: 570px) {
-  .container {
-      display: grid;
-      grid-template-columns: 48% 48%;
- }
-  .card-main {
-      grid-column: 1 / span 2;
- }
-  .card-main .card-identity {
-      gap: 3rem;
- }
-  .card-box .card-props .row2 {
-      flex-direction: column;
-      align-items: flex-start;
- }
-  .card-box .card-props .row2 .hours {
-      font-size: 3rem;
- }
-}
-
-
-@media screen and (min-width: 960px) {
-  .container {
-      display: grid;
-      grid-template-columns: 31% 31% 31%;
- }
-  .card-main {
-      grid-column: 1 / span 3;
- }
-}
-
-
-@media screen and (min-width: 1440px) {
-  body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
- }
-  .container {
-      width: 77%;
-      grid-template-columns: 23% 23% 23% 23%;
-      gap: 3rem;
- }
-  .card-main {
-      grid-row: 1 / span 2;
-      grid-column: unset;
-      height: 100%;
- }
-  .card-main .card-identity {
-      flex-direction: column;
-      align-items: flex-start;
-      height: 70%;
-      padding: 3.5rem 3rem;
- }
-  .card-main .card-identity .img {
-      width: 8.4rem;
- }
-  .card-main .card-identity .card-description {
-      margin-top: 1rem;
- }
-  .card-main .card-identity .card-description .name {
-      font-size: 4rem;
- }
-  .card-main .card-menu {
-      height: 30%;
-      flex-direction: column;
-      align-items: flex-start;
- }
-  .card-box .card-props {
-      margin-top: 4.5rem;
-      padding: 2.8rem;
- }
-  .card-box .card-props .row2 .hours {
-      font-size: 5.5rem;
-      padding-top: 1.9rem;
- }
-  .card-box .card-props .row2 .description {
-      padding-top: 1rem;
- }
-}

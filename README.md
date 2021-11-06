@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Installation 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone this project and install node packages with this code;
+
+```
+npm install
+```
 
 ## Available Scripts
 
@@ -68,3 +72,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Purpose of this project
+
+This is a solution for https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw 
+
+### Requirements of this project
+
+**Users should be able to:
+
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Switch between viewing Daily, Weekly, and Monthly stats
+
+You can view the project live on this link: https://time-tracking-dashboard-v1.herokuapp.com/

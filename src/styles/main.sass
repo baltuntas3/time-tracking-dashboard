@@ -1,0 +1,164 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+html
+  font-size: 62.5%
+
+body
+  font-family: 'Rubik', sans-serif
+  background-color: #0f1424
+
+.container
+  width: 88%
+  margin: 2rem auto
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  gap: 2.2rem
+
+.card-main
+  background-color: #1c1f4a
+  border-radius: 1.6rem
+  width: 100%
+
+  .card-identity
+    background-color: #5847eb
+    border-radius: 1.6rem
+    padding: 3rem
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: flex-start
+    gap: 1.8rem
+
+    img
+      width: 26%
+      max-width: 130px
+      border: 3px solid white
+      border-radius: 50%
+
+    .card-description
+      display: flex
+      flex-direction: column
+      align-items: flex-start
+      justify-content: center
+      gap: 0.4rem
+
+      p
+        color: #bdc1ff
+        font-size: 1.5rem
+
+      .name
+        color: white
+        font-size: 2.4rem
+        font-weight: 300
+
+  .card-menu
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    padding: 2.5rem
+
+    .card-link
+      color: #6f76c8
+      font-size: 1.8rem
+      cursor: pointer
+
+      &:hover
+        color: white
+
+    .menu-active
+      color: white
+
+.card-box
+  width: 100%
+  border-radius: 1.6rem
+  background-color: hsl(15, 100%, 70%)
+  background-image: url(../images/icon-work.svg)
+  background-repeat: no-repeat
+  background-position: 92% -1rem
+
+  .card-props
+    position: relative
+    background-color: #1c1f4a
+    margin-top: 4rem
+    border-radius: 1.6rem
+    padding: 2.5rem
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    gap: 0.8rem
+
+    &:hover
+      background-color: #33387a
+
+    .row
+      display: flex
+      align-items: center
+      justify-content: space-between
+      width: 100%
+
+      .title
+        color: white
+        font-size: 1.8rem
+        font-weight: 500
+        z-index: 98
+
+      .points
+        display: flex
+        align-items: center
+        justify-content: center
+
+        &:hover .point
+          background-color: white
+
+        &:before
+          content: ''
+          background-color: pink
+          position: absolute
+          left: 0
+          top: 0
+          right: 0
+          bottom: 0
+          border-radius: 1.6rem
+          display: none
+          z-index: 1
+
+        &:hover::before
+          background-color: #1c1f4a
+          display: block
+
+        .point
+          background-color: #bdc1ff
+          width: 0.4rem
+          height: 0.4rem
+          border-radius: 50%
+          margin: 0.2rem
+          z-index: 99
+
+    .row2
+      display: flex
+      align-items: center
+      justify-content: space-between
+      width: 100%
+      z-index: 97
+
+      .hours
+        color: white
+        font-size: 3rem
+        font-weight: 300
+
+      .description
+        color: #bdc1ff
+        font-size: 1.5rem
+
+.asd
+  background-color: hsl(15, 100%, 70%)
+  background-image: url(../images/icon-work.svg)
+
+  @import "media.sass"
